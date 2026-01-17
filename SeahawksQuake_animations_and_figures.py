@@ -156,12 +156,12 @@ anim_header_title_fontsize = 22
 anim_subtitle_fontsize = 14
 
 # Outputs
-out_png_single = "Seahawks_seismogram_{sta}.{cha}.png".format(sta=station, cha=channel)
-out_png_multi = "Seahawks_seismograms_multi.png"
+out_png_single = "Seahawks_seismograms_{sta}.{cha}.png".format(sta=station, cha=channel)
+out_png_multi = "Seahawks_seismograms_multi_station.png"
 
-out_mp4_stacked_single = "Seahawks_seismogram_animation_stacked_single_station.mp4"
+out_mp4_stacked_single = "Seahawks_seismograms_animation_stacked_single_station.mp4"
 out_mp4_stacked_multi = "Seahawks_seismograms_animation_stacked_multi_station.mp4"
-out_mp4_overlay_single = "Seahawk_seismogram_animation_overlay_single_station.mp4"
+out_mp4_overlay_single = "Seahawk_seismograms_animation_overlay_single_station.mp4"
 out_mp4_overlay_multi = "Seahawks_seismograms_animation_overlay_multi_station.mp4"
 
 # Optional: force ffmpeg binary
